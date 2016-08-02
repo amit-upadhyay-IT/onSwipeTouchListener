@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeDrawer"
+            android:icon="@drawable/house"
+            android:title="Home" />
+        <item
+            android:id="@+id/accountDrawer"
+            android:icon="@drawable/account"
+            android:title="Account" />
+        <item
+            android:id="@+id/settingsDrawer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Settings" />
+        <item
+            android:id="@+id/toolsDrawer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/realEstateDrawer"
+                android:icon="@drawable/house"
+                android:title="Real Estate" />
+            <item
+                android:id="@+id/hotelsDrawer"
+                android:icon="@drawable/hotels"
+                android:title="Hotels" />
+            <item
+                android:id="@+id/educationDrawer"
+                android:icon="@drawable/notepad"
+                android:title="Educational Institute" />
+            <item
+                android:id="@+id/hospitalityDrawer"
+                android:icon="@drawable/medical"
+                android:title="Hospitality Services" />
+            <item
+                android:id="@+id/medicalStoresDrawer"
+                android:icon="@drawable/medical"
+                android:title="Medical Stores"/>
+        </menu>
+    </item>
+
+</menu>
