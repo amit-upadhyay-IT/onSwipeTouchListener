@@ -1,8 +1,8 @@
 # onSwipeTouchListener
 
-The class to be used :
+The OnSwipeTouchListener class :
 
-public class OnSwipeTouchListener implements View.OnTouchListener {
+    public class OnSwipeTouchListener implements View.OnTouchListener {
 
     private final GestureDetector gestureDetector;
 
@@ -72,7 +72,7 @@ public class OnSwipeTouchListener implements View.OnTouchListener {
 
 Inside the MainActivity we can write a method similar to this to implement the swipe listener (here I've use an ImageView)
 
-public void initImageView()
+    public void initImageView()
     {
         imageView = (ImageView) findViewById(R.id.imageSwitcher);
 
